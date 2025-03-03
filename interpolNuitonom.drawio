@@ -1,9 +1,48 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.0.16">
   <diagram name="Страница — 1" id="adz4vqJbGCSaGsMBAZdW">
-    <mxGraphModel>
+    <mxGraphModel dx="1442" dy="1015" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="zhytP5TWxFsGR4nqnHPh-9" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="zhytP5TWxFsGR4nqnHPh-1" target="zhytP5TWxFsGR4nqnHPh-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zhytP5TWxFsGR4nqnHPh-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Начало&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-19" y="-89" width="93" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="zhytP5TWxFsGR4nqnHPh-10" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="zhytP5TWxFsGR4nqnHPh-2" target="zhytP5TWxFsGR4nqnHPh-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zhytP5TWxFsGR4nqnHPh-2" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Ввод данных: точки&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;(x&lt;sub&gt;0&lt;/sub&gt;;y&lt;sub&gt;0&lt;/sub&gt;), ... ,(x&lt;sub&gt;n;&lt;/sub&gt;y&lt;sub&gt;n&lt;/sub&gt;)&lt;/font&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-54.5" y="-30" width="164" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="zhytP5TWxFsGR4nqnHPh-11" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="zhytP5TWxFsGR4nqnHPh-3" target="zhytP5TWxFsGR4nqnHPh-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zhytP5TWxFsGR4nqnHPh-3" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Инициализация: создание таблицы разделенных разностей&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-40.5" y="44" width="136" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zhytP5TWxFsGR4nqnHPh-12" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="zhytP5TWxFsGR4nqnHPh-5" target="zhytP5TWxFsGR4nqnHPh-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zhytP5TWxFsGR4nqnHPh-5" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Расчет разделенных разностей для каждого j от 0 до n-i по формуле&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-40.5" y="122" width="134.5" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="zhytP5TWxFsGR4nqnHPh-13" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="zhytP5TWxFsGR4nqnHPh-6" target="zhytP5TWxFsGR4nqnHPh-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zhytP5TWxFsGR4nqnHPh-6" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Построение интерполяционного многочлена P&lt;sub&gt;n&lt;/sub&gt;(x)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-33.25" y="215" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zhytP5TWxFsGR4nqnHPh-14" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="zhytP5TWxFsGR4nqnHPh-7" target="zhytP5TWxFsGR4nqnHPh-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zhytP5TWxFsGR4nqnHPh-7" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Вывод интерполяционного многочлена&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-72.37" y="298" width="198.25" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="zhytP5TWxFsGR4nqnHPh-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Конец&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-23" y="376" width="101" height="43" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
